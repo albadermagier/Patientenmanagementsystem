@@ -24,5 +24,4 @@ public:
 	void ausgabeVname() { cout << this->Vname << endl; }
 	void ausgabeAdresse() { cout << this->Adresse << endl; }
 	void ausgabeAlter() { cout << this->alter << endl; }
-	int a;
 };

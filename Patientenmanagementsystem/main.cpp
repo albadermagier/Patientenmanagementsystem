@@ -9,5 +9,4 @@ int main() {
 	A.ausgabeAlter();
 	A.ausgabeVname();
 	A.ausgabeName();
-
 }
