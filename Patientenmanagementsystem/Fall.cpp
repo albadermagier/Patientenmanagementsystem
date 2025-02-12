@@ -31,7 +31,7 @@ Fall::~Fall() // Löschen der Pointer und leeren des Speichers nach Beendigung vo
 {
     if(!behandlungen.empty())
     {
-    for(size_t i = 0; i < behandlungen.size(); i++) // TODO einbauen von Test, ob Speicherblöcke freigegeben wurden (Prüfung wegen SPeicherlecks)
+    for(size_t i = 0; i < behandlungen.size(); i++) // TODO einbauen von Test, ob Speicherblöcke freigegeben wurden (Prüfung wegen Speicherlecks)
         {
          delete behandlungen[i];
          behandlungen[i] = nullptr;
