@@ -21,9 +21,15 @@
     <ClInclude Include="Patient.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Fall.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Patient.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

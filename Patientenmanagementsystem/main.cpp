@@ -1,12 +1,14 @@
 #include "Person.h"
-
+#include "Patient.h"
 
 
 int main() {
 
-	Person A(10, "Larry", "jumbo", "Hauptstr");
-	A.ausgabeAdresse();
-	A.ausgabeAlter();
-	A.ausgabeVname();
-	A.ausgabeName();
+	Patient A(10, "Larry", "jumbo", "Hauptstr");
+	A.getData();
+	A.ausgabePID();
+	Patient B(10, "marie", "hule", "Hauptstr.283");
+	B.getData();
+	B.ausgabePID();
+	
 }
