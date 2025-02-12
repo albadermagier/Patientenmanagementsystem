@@ -1,11 +1,13 @@
 #pragma once
 #include "Behandlungen.h"
 #include <vector>
+#include <iostream>
+
 
 class Fall {
 
 private:
-	vector <Behandlungen> behandlungen;
+	vector <Behandlungen*> behandlungen;
 	int Fallnummer;
 
 public:
@@ -13,5 +15,8 @@ public:
 	Fall(int Fallnummer) : Fallnummer(Fallnummer) {
 
 	}
+	void BehandlungHinzufuegen();
+	void ausgabeBehandlungen();
 
+	~Fall();
 };
