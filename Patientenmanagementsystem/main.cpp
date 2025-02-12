@@ -1,14 +1,18 @@
 #include "Person.h"
 #include "Patient.h"
-
+#include "Behandlungen.h"
 
 int main() {
 
-	Patient A(10, "Larry", "jumbo", "Hauptstr");
+	/*Patient A(10, "Larry", "jumbo", "Hauptstr");
 	A.getData();
 	A.ausgabePID();
 	Patient B(10, "marie", "hule", "Hauptstr.283");
 	B.getData();
-	B.ausgabePID();
+	B.ausgabePID();*/
+
+	Behandlungen c("12.02", "Michael's fetter Arsch", "Ibuprofen");
+	c.getBehandlungen();
+
 	
 }
