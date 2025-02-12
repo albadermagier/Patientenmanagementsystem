@@ -12,13 +12,13 @@ void Fall::BehandlungHinzufuegen()
 
 void Fall::ausgabeBehandlungen()
 {
-    if(!behandlungen.empty()){
+    if(!behandlungen.empty())
+    {
     for (size_t i = 0; i < behandlungen.size(); i++) 
         {
        std::cout << "Behandlung:" << i+1 << endl;
        behandlungen[i]->getBehandlungen();
-       std::cout << endl;
-       
+       std::cout << behandlungen[i] << endl;
         }
     }
     else
